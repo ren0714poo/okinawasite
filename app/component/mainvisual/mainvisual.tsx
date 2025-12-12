@@ -5,7 +5,10 @@ export default function Mainvisual() {
 
   return(
     <>
-    <Link href="about" >about</Link>
+    {/* <Link href="about" >about</Link> */}
+    <div>
+
+    </div>
     </>
   );
 }
