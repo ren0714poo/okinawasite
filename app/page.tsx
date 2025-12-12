@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Mainvisual from "./component/mainvisual/mainvisual";
+import Header from "./component/header/header";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-blue-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Tailwind 動いてるよ！
-      </h1>
+    <div>
+      <Header/>
+      <Image src="/assets/yuna.png" alt="ゆな" width={300} height={100}/>
+      <Mainvisual/>
     </div>
   );
 }
