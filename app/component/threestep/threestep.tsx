@@ -16,7 +16,7 @@ export default function Threestep() {
             height={320}
             className="w-full object-cover"
           />
-          <div className="absolute left-6 top-1/2 w-72 -translate-y-1/2 rounded-2xl bg-white/90 p-6 shadow-md">
+          <div className="absolute left-50 top-1/2 w-72 -translate-y-1/2 rounded-2xl bg-white/90 p-6 shadow-md">
             <p className="font-bold text-red-500 mb-2">1. お店を選ぶ</p>
             <p className="text-sm leading-relaxed">
               気になるシーサー作り体験のお店を一覧からお選びください。
@@ -32,7 +32,7 @@ export default function Threestep() {
             height={320}
             className="w-full object-cover"
           />
-          <div className="absolute right-6 top-1/2 w-72 -translate-y-1/2 rounded-2xl bg-white/90 p-6 shadow-md">
+          <div className="absolute right-50 top-1/2 w-72 -translate-y-1/2 rounded-2xl bg-white/90 p-6 shadow-md">
             <p className="font-bold text-red-500 mb-2">2. 日時を決める</p>
             <p className="text-sm leading-relaxed">
               カレンダーからご希望の日時を選択し、人数などを入力します。
@@ -48,7 +48,7 @@ export default function Threestep() {
             height={320}
             className="w-full object-cover"
           />
-          <div className="absolute left-6 top-1/2 w-72 -translate-y-1/2 rounded-2xl bg-white/90 p-6 shadow-md">
+          <div className="absolute left-50 top-1/2 w-72 -translate-y-1/2 rounded-2xl bg-white/90 p-6 shadow-md">
             <p className="font-bold text-red-500 mb-2">3. 予約を確定する</p>
             <p className="text-sm leading-relaxed">
               内容を確認して予約を確定。あとは当日を楽しむだけ！

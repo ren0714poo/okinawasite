@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Explanation() {
   return (
-    <section className="w-full py-20 flex items-center justify-center text-[#555555]">
-      <div className="flex flex-col items-center justify-center gap-4 text-center px-6">
+    <section className="w-full py-12 flex items-center justify-center text-[#555555]">
+      <div className="flex flex-col items-center justify-center gap-4 mt-16 text-center px-6">
         <h1 className="text-xl text-sky-400 md:text-2xl font-bold">
           みんなもシーサーを作って家族を守ろう！
         </h1>
@@ -17,7 +17,7 @@ export default function Explanation() {
           alt="シーサー"
           width={144}
           height={80}
-          className="mt-4"
+          className="mt-2"
         />
       </div>
     </section>
