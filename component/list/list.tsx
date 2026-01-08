@@ -38,7 +38,7 @@ const shops = [
     time: "50分",
   },
 ];
-export default function Explanation() {
+export default function List() {
   return (
     <section className="w-full py-12 text-[#555555]">
       <h1 className="text-xl text-center my-12 text-sky-400 md:text-2xl font-bold">

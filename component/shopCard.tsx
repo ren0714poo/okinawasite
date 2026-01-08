@@ -9,7 +9,7 @@ type Props = {
 
 export default function ShopCard({ image, title, address, time }: Props) {
   return (
-    <div className="w-64 rounded-2xl bg-white shadow-lg overflow-hidden transition duration-300 hover:translate-y-3 hover:shadow-2xl">
+    <div className="w-64 rounded-2xl bg-white shadow-lg overflow-hidden transition duration-300 hover:-translate-y-3 hover:shadow-2xl">
       <Image
         src={image}
         alt={title}

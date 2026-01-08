@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="w-full text-[#555555] py-40 flex justify-center">
+    <section className="w-full text-[#555555] py-20 flex justify-center">
       <div className="mx-auto flex max-w-6xl flex-col md:flex-row items-center gap-10 px-6">
 
         <div className="w-full md:w-auto flex justify-center">
