@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Quiz() {
   return (
-    <section className="w-full bg-gradient-to-r from-sky-400 to-sky-200 py-36">
+    <section id="quiz" className="w-full bg-gradient-to-r from-sky-400 to-sky-200 py-36">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="text-center text-white mb-16">

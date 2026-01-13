@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Threestep() {
   return (
-    <section className="w-full py-16 text-[#555555]">
+    <section id="threestep" className="w-full py-16 text-[#555555]">
           <h2 className="pb-12 text-center md:text-2xl font-bold text-sky-400">
             超簡単予約3ステップ!
           </h2>

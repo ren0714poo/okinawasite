@@ -49,7 +49,7 @@ import ShopCard from "@/component/shopCard";
 
 export default function List() {
   return (
-    <section className="w-full py-12 text-[#555555]">
+    <section id="list" className="w-full py-12 text-[#555555]">
       <h1 className="text-xl text-center my-12 text-sky-400 md:text-2xl font-bold">
         イベント一覧
       </h1>

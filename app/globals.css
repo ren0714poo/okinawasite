@@ -28,3 +28,7 @@
   writing-mode: vertical-rl;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+

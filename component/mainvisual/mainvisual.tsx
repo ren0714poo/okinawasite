@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mainvisual() {
   return (
-    <section className="mx-auto text-[#555555] py-6 flex items-center justify-center">
+    <section id="mainvisual" className="mx-auto text-[#555555] py-6 flex items-center justify-center">
         <Image 
           src="/assets/mainview.png" 
           alt="沖縄の海" 
