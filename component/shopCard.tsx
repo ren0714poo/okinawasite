@@ -15,7 +15,7 @@ export default function ShopCard({ image, title, address, time }: Props) {
         alt={title}
         width={288}
         height={180}
-        className="h-44 w-full object-cover"
+        className="h-56 w-full object-cover"
       />
       <div className="p-4 text-sm text-[#555] text-left">
         <h3 className="font-bold mb-2">{title}</h3>

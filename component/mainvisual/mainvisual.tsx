@@ -7,7 +7,7 @@ export default function Mainvisual() {
           src="/assets/mainview.png" 
           alt="沖縄の海" 
           width={1000} 
-          height={300} 
+          height={200} 
           className="object-cover" priority
         />
       <h1 className="text-6xl py-6 font-bold leading-tight tracking-wide writing-vertical">
